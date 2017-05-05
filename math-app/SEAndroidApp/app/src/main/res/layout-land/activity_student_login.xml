@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/studenloginland">
+
+    <LinearLayout
+        android:id="@+id/login_form"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="381dp">
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:id="@+id/email_login_form"
+            android:layout_height="match_parent">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="4dp">
+
+                <AutoCompleteTextView
+                    android:id="@+id/username"
+                    android:layout_width="match_parent"
+                    android:textColor="@color/White"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="20dp"
+                    android:textSize="30dp"
+                    android:hint="@string/prompt_username"
+                    android:inputType="text"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="236dp">
+
+                <EditText
+
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="20dp"
+                    android:id="@+id/password"
+                    android:hint="@string/prompt_password"
+                    android:imeActionId="@+id/login"
+                    android:textSize="30dp"
+                    android:textColor="@color/White"
+                    android:imeActionLabel="@string/action_sign_in"
+                    android:imeOptions="actionUnspecified"
+                    android:inputType="textPassword" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="50dp"
+                    android:background="@color/Gray"
+                    android:id="@+id/sign_in_button"
+                    android:text="@string/action_sign_in"
+                    android:textSize="25dp"
+                    android:textColor="@color/White"
+                    android:textStyle="bold" />
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

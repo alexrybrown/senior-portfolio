@@ -1,0 +1,8 @@
+{
+  "name": "Goals Made Attainable",
+  "description": "Web service using Django REST Framework",
+  "image": "heroku/python",
+  "repository": "https://github.com/alexrybrown/senior-project",
+  "keywords": ["python", "django" ],
+  "addons": [ "heroku-postgresql" ]
+}

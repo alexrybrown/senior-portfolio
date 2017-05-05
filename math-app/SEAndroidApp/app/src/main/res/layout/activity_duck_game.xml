@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/bluesquare" >
+    <RelativeLayout
+        android:id="@+id/duckgame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:fitsSystemWindows="true"
+        android:background="@drawable/bluesquare"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/duckgame"
+        android:weightSum="1">
+
+        <Button android:id="@+id/even"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:weightSum="0.5"
+            android:text="Even"
+            android:background="@android:color/holo_blue_dark"
+            tools:ignore="ButtonStyle" />
+
+        <Button android:id="@+id/odd"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_weight="0.5"
+            android:text="Odd"
+            android:background="@android:color/holo_blue_dark"
+            tools:ignore="ButtonStyle,InefficientWeight" />
+
+    </LinearLayout>
+
+</RelativeLayout>

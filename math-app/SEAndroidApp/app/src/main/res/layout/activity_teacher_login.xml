@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.brainiacs.seandroidapp.TeacherLoginActivity"
+    android:background="@drawable/teacherlogin"
+    android:weightSum="1">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="750dp">
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:backgroundTint="@color/Gray"
+            android:id="@+id/username_login_form"
+            android:layout_weight="0.14">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <AutoCompleteTextView
+                    android:id="@+id/username"
+                    android:hint="@string/prompt_username"
+                    android:inputType="textEmailAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:padding="@dimen/activity_vertical_margin"
+                    android:textSize="30sp"
+                    android:textColor="@color/White"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <EditText
+                    android:id="@+id/password"
+
+                    android:hint="@string/prompt_password"
+                    android:imeActionId="@+id/login"
+                    android:imeActionLabel="@string/action_sign_in"
+                    android:inputType="textPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:padding="@dimen/activity_vertical_margin"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:textSize="30sp"
+                    android:textColor="@color/White"/>
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="256dp"
+            android:layout_weight="0.71">
+
+            <Button
+                android:id="@+id/sign_in_button"
+                android:text="@string/action_sign_in"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:padding="@dimen/activity_vertical_margin"
+                android:textStyle="bold"
+                android:background="@android:color/black"
+                android:textColor="@android:color/background_light"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/register_button"
+                style="?android:textAppearanceSmall"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/action_register"
+                android:textStyle="bold"
+                android:background="@android:color/black"
+                android:textColor="@android:color/background_light"
+                android:textSize="30sp"
+                android:padding="@dimen/activity_vertical_margin" />
+        </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

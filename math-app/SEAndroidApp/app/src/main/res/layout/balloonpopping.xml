@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/bluesquare" >
+    <RelativeLayout
+        android:id="@+id/balloonpopping"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:fitsSystemWindows="true"
+        android:background="@drawable/bluesquare"
+        android:layout_above="@+id/equation">
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/equation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="100dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center" />
+</RelativeLayout>

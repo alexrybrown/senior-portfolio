@@ -1,0 +1,82 @@
+[
+  {
+    "model": "assignments.Question",
+    "pk": 1,
+    "fields": {
+      "question": "2 - 2",
+      "answer": "0"
+    }
+  },
+  {
+    "model": "assignments.Question",
+    "pk": 2,
+    "fields": {
+      "question": "5 - 3",
+      "answer": "2"
+    }
+  },
+  {
+    "model": "assignments.Question",
+    "pk": 3,
+    "fields": {
+      "question": "7 - 3",
+      "answer": "4"
+    }
+  },
+  {
+    "model": "assignments.Question",
+    "pk": 4,
+    "fields": {
+      "question": "12 - 11",
+      "answer": "1"
+    }
+  },
+  {
+    "model": "assignments.Question",
+    "pk": 5,
+    "fields": {
+      "question": "17 - 3",
+      "answer": "14"
+    }
+  },
+  {
+    "model": "assignments.Question",
+    "pk": 6,
+    "fields": {
+      "question": "14 - 4",
+      "answer": "10"
+    }
+  },
+  {
+    "model": "assignments.Question",
+    "pk": 7,
+    "fields": {
+      "question": "16 - 7",
+      "answer": "9"
+    }
+  },
+  {
+    "model": "assignments.Question",
+    "pk": 8,
+    "fields": {
+      "question": "19 - 11",
+      "answer": "8"
+    }
+  },
+  {
+    "model": "assignments.Question",
+    "pk": 9,
+    "fields": {
+      "question": "15 - 10",
+      "answer": "5"
+    }
+  },
+  {
+    "model": "assignments.Question",
+    "pk": 10,
+    "fields": {
+      "question": "6 - 3",
+      "answer": "3"
+    }
+  }
+]

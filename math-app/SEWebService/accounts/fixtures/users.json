@@ -1,0 +1,74 @@
+[
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$30000$JMhQdytCjMTK$WbYu+1si10Z3inizvXsPo4L8pQMnJ/NYXe6ByZtOZSM=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "test",
+        "first_name": "Test",
+        "last_name": "User",
+        "email": "test@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2017-03-09T18:26:51.174Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$30000$txsGP4JT6Lho$4gnM2ni+kjK8No0fokzgni5qJx6QH/jmVwI5954tfz0=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "teacher_test",
+        "first_name": "Test",
+        "last_name": "Teacher",
+        "email": "teacher_test@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2017-03-09T18:28:50.988Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$30000$yohmvtIRJTOq$UNrg/5cBixp6Kw0ylvH2e2dN0ZPUGvhqyGrvnwwncnE=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "student_test1",
+        "first_name": "Test",
+        "last_name": "Student1",
+        "email": "student_test@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2017-03-09T18:29:15.380Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 4,
+    "fields": {
+        "password": "pbkdf2_sha256$30000$yohmvtIRJTOq$UNrg/5cBixp6Kw0ylvH2e2dN0ZPUGvhqyGrvnwwncnE=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "student_test2",
+        "first_name": "Test",
+        "last_name": "Student2",
+        "email": "student_test@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2017-03-09T18:29:15.380Z",
+        "groups": [],
+        "user_permissions": []
+    }
+}
+]

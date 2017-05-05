@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_create_student_account"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/createstudenaccount"
+    tools:context="com.brainiacs.seandroidapp.CreateStudentAccountActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="504dp">
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/registration_form"
+            android:layout_marginTop="100dp">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="75dp">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/activity_vertical_margin"
+                    android:layout_marginRight="24dp"
+                    android:layout_marginLeft="24dp"
+                    android:textSize="24sp"
+                    android:id="@+id/first_name"
+                    android:hint="@string/Student_FName" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="75dp">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/activity_vertical_margin"
+                    android:layout_marginRight="24dp"
+                    android:layout_marginLeft="24dp"
+                    android:textSize="24sp"
+                    android:id="@+id/last_name"
+                    android:hint="@string/Student_LName" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="75dp">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/activity_vertical_margin"
+                    android:layout_marginRight="24dp"
+                    android:layout_marginLeft="24dp"
+                    android:textSize="24sp"
+                    android:id="@+id/username"
+                    android:hint="@string/Student_UN" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="75dp">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/activity_vertical_margin"
+                    android:layout_marginRight="24dp"
+                    android:layout_marginLeft="24dp"
+                    android:textSize="24sp"
+                    android:id="@+id/password"
+                    android:hint="@string/Student_Pass"
+                    android:inputType="textPassword" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="75dp">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/activity_vertical_margin"
+                    android:layout_marginRight="24dp"
+                    android:layout_marginLeft="24dp"
+                    android:textSize="24sp"
+                    android:id="@+id/reenter_password"
+                    android:inputType="textPassword"
+                    android:hint="@string/Student_RePass" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/activity_vertical_margin"
+                android:layout_marginRight="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="10dp"
+                android:textSize="30sp"
+                android:textColor="@color/White"
+                android:background="@color/Gray"
+                android:text="@string/submit_registraion_button"
+                android:onClick="register" />
+
+        </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

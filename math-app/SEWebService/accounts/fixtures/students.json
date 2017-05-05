@@ -1,0 +1,16 @@
+[
+  {
+    "model": "accounts.student",
+    "pk": 1,
+    "fields": {
+      "user": 3
+    }
+  },
+  {
+    "model": "accounts.student",
+    "pk": 2,
+    "fields": {
+      "user": 4
+    }
+  }
+]

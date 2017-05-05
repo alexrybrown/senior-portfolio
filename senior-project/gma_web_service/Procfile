@@ -1,0 +1,1 @@
+web: gunicorn gma_web_service.wsgi --log-file -

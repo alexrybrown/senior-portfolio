@@ -1,0 +1,10 @@
+[
+  {
+    "model": "accounts.teacher",
+    "pk": 1,
+    "fields": {
+      "user": 2,
+      "students": [1,2]
+    }
+  }
+]

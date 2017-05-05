@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_goal_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.goalsmadeattainable.goalsmadeattainable.GoalDetailsActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"/>
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/goal_details_nested_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/goal_details_title"
+                android:textSize="20sp"
+                android:padding="8dp"/>
+
+            <TextView
+                android:id="@+id/goal_details_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/goal_details_description"
+                android:textSize="20sp"
+                android:padding="8dp"/>
+
+            <TextView
+                android:id="@+id/goal_details_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/goal_details_expected_completion"
+                android:textSize="20sp"
+                android:padding="8dp"/>
+
+            <TextView
+                android:id="@+id/goal_details_expected_completion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"/>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/goal_details_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fab"
+        android:src="@drawable/ic_add_black_24dp"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        app:fabSize="normal" />
+</android.support.design.widget.CoordinatorLayout>

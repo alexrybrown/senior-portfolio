@@ -1,0 +1,15 @@
+[
+    {
+        "model": "goals.goal",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "future_goal": null,
+            "title": "hello",
+            "description": null,
+            "comment": null,
+            "expected_completion": "2012-7-05T16:00:00Z",
+            "finished_at": null
+        }
+    }
+]

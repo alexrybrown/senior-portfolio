@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">Goals Made Attainable</string>
+
+    <!-- Strings related to login -->
+    <string name="login_toolbar_title">Login</string>
+    <string name="prompt_user">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_register">Register</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">A password is required</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."</string>
+    <string name="login_url">api-token-auth/</string>
+    <string name="user_info_url">accounts/</string>
+    <string name="user_token_info">user-info/</string>
+    <string name="failed_to_login">Failed to login.</string>
+    <string name="login_successful">Login successful.</string>
+    <string name="user_id">id</string>
+    <string name="user_user">user</string>
+    <string name="user_first_name">first_name</string>
+    <string name="user_last_name">last_name</string>
+    <string name="user_username">username</string>
+    <string name="user_email">email</string>
+    <string name="user_token">token</string>
+
+    <!-- Strings related to registration -->
+    <string name="first_name_hint">First Name</string>
+    <string name="last_name_hint">Last Name</string>
+    <string name="email_hint">Email</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="reenter_password_hint">Reenter Password</string>
+    <string name="empty_first_name">Please provide a first name</string>
+    <string name="empty_last_name">Please provide a last name</string>
+    <string name="invalid_email">Please provide a valid email</string>
+    <string name="empty_username">Please provide a username</string>
+    <string name="empty_password">Please provide a password</string>
+    <string name="empty_reenter_password">Please retype your password</string>
+    <string name="invalid_password">Passwords do not match</string>
+    <string name="submit_registration_button">Submit</string>
+    <string name="cancel_registration_button">Cancel</string>
+    <string name="register_url">accounts/</string>
+    <string name="failed_to_register">Registration failed.</string>
+    <string name="registration_successful">Registration successful.</string>
+    <string name="first_name">first_name</string>
+    <string name="last_name">last_name</string>
+    <string name="email">email</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="confirm_password">confirm_password</string>
+
+    <!-- Strings related to goals -->
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="pick_date">Expected Completion Date</string>
+    <string name="pick_time">Expected Completion Time</string>
+    <string name="create_goal">Create Goal</string>
+    <string name="edit_goal_button">Edit Goal</string>
+    <string name="cancel_submit_goal">Cancel</string>
+    <string name="empty_title">Please provide a title</string>
+    <string name="empty_description">Please provide a description</string>
+    <string name="goal_id">id</string>
+    <string name="goal_future_goal">future_goal</string>
+    <string name="goal_title">title</string>
+    <string name="goal_description">description</string>
+    <string name="goal_comment">comment</string>
+    <string name="goal_created_at">created_at</string>
+    <string name="goal_expected_completion">expected_completion</string>
+    <string name="goal_finished_at">finished_at</string>
+    <string name="goal_last_modified">last_modified</string>
+    <string name="goal_archived">archived</string>
+    <string name="goals_url">goals/</string>
+    <string name="future_goals_url">goals/future-goals/</string>
+    <string name="upcoming_goals_url">goals/upcoming-goals/</string>
+    <string name="overdue_goals_url">goals/overdue-goals/</string>
+    <string name="sub_goals_url">sub-goals/</string>
+    <string name="archive_goal_url">archive/</string>
+    <string name="complete_goal_url">complete/</string>
+    <string name="goal_created">Goal created</string>
+    <string name="failed_goal_creation">Failed to create goal</string>
+    <string name="goal_update">Goal Updated</string>
+    <string name="failed_goal_update">Failed to update goal</string>
+    <string name="failed_goal_retrieval">Failed to retrieve goals</string>
+    <string name="failed_goal_details_retrieval">Failed to retrieve goal details</string>
+    <string name="failed_goal_archive">Failed to archive goal</string>
+    <string name="goal_details_title">Title</string>
+    <string name="goal_details_description">Description</string>
+    <string name="goal_details_comment">Comment</string>
+    <string name="goal_details_expected_completion">Expected Completion</string>
+    <string name="goal_details_sub_goals">Sub Goals</string>
+
+    <!-- Strings related to toolbar -->
+    <string name="swap_to_sub_goals">View Sub Goal Details</string>
+    <string name="swap_to_goal_details">View Goal Details</string>
+    <string name="edit_goal">Edit Goal</string>
+    <string name="finish_goal">Finish Goal</string>
+    <string name="delete_goal">Delete Goal</string>
+    <string name="jump_to_home">Jump to Home</string>
+    <string name="logout">Logout</string>
+
+    <!-- Strings related to intent extras -->
+    <string name="future_goal_id">future_goal_id</string>
+    <string name="edit_goal_id">edit_goal_id</string>
+    <string name="fragment_number">fragment_number</string>
+
+    <!-- Empty fragments -->
+    <string name="no_data_future_goals">No future goals</string>
+    <string name="no_data_upcoming_goals">No upcoming goals</string>
+    <string name="no_data_overdue_goals">No overdue goals</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,1 @@
+web: gunicorn SEWebService.wsgi --log-file -
